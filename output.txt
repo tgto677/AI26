@@ -1,0 +1,66 @@
+--- 数据加载成功 ---
+训练集样本数量: 5000
+训练集标签数量: 5000
+验证集样本数量: 2368
+验证集标签数量: 2368
+无标签测试集样本数量: 2457
+--------------------
+第一个训练样本内容:
+From: 2575brooksr@vms.csd.mu.edu
+Subject: NeXT cube board monitor cable ?
+Organization: Marquette University - Computer Services
+Lines: 8
+Reply-To: 2575brooksr@vms.csd.mu.edu
+NNTP-Posting-Host: vmsf.csd.mu.edu
+
+Hi all!
+        Quick question.  Could someone please send me a pinout of
+the cable that goes between a NeXT cube and the monitor?  Also,
+I am interested in the video signal (sync type, horz/vert rate)
+so any information on that would be greatly appreciated also.
+
+Thanks!
+Ryan Brooks                                     ryan@agnus.mcs.mu.edu
+
+
+第一个训练样本的标签: 7
+--------------------
+第一个无标签测试样本内容:
+Subject: Re: Traffic morons
+From: Stafford@Vax2.Winona.MSUS.Edu (John Stafford)
+Distribution: world
+Organization: Winona State University
+Nntp-Posting-Host: stafford.winona.msus.edu
+Lines: 16
+
+In article <C5sHD0.LH6@athena.cs.uga.edu>, ahatcher@athena.cs.uga.edu
+(Allan Hatcher) wrote:
+>
+
+> You can't make a Citizens arrest on anything but a felony.
+
+        I'm not sure that's true.  Let me rephrase; "You can file a complaint
+ which will bring the person into court."  As I understand it, a
+ "citizens arrest" does not have to be the physical detention of
+ the person.
+
+ Better now?
+
+====================================================
+John Stafford   Minnesota State University @ Winona
+                    All standard disclaimers apply.
+
+
+==================================================
+第一个清洗过的样本内容:
+hi all quick question could someone please send me a pinout of the cable that goes between a next cube and the monitor also i am interested in the video signal sync type horz vert rate so any information on that would be greatly appreciated also thanks ryan brooks ryan agnus mcs mu edu
+
+==================================================
+svm(C=0.2): 训练完成
+svm(C=0.3): 训练完成
+svm(C=0.5): 训练完成
+svm(C=0.8): 训练完成
+lr(C=0.2): 训练完成
+lr(C=0.3): 训练完成
+lr(C=0.5): 训练完成
+lr(C=0.8): 训练完成
